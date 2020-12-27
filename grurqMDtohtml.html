@@ -1,6 +1,8 @@
 ﻿<html>
+
 <body>
-<h4>grurqMDtohtml | by grurq (c)2020-</h4>
+<h3>grurqMDtohtml | by grurq (c)2020-</h3>
+(<a href= "https://grurq.github.io/">grurqApps</a> 最終更新:2020-12-27)<br>
 <p>
 <img src="grurqMDtohtml01.PNG" alt="設定画面1">
 <img src="grurqMDtohtml02.PNG" alt="設定画面2">
@@ -61,7 +63,7 @@ exeファイルにドラッグ＆ドロップして、md形式をhtm/htmlファ�
 </p>
 <p>
 Copyright (c)2020 grurq Released under the MIT license<br>
-<a href = "https://opensource.org/licenses/mit-license.php">https://opensource.org/licenses/mit-license.php</a> <a href= "https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license">(日本語訳:osdn)</a><br>
+<a href = "https://opensource.org/licenses/mit-license.php">https://opensource.org/licenses/mit-license.php</a> <a href= "https://licenses.opensource.jp/">(日本語訳:Open Source Group Japan MIT License)</a><br>
 </p>
 <p>
 DOBON.NET様よりソースコードを多く参考にさせていただきました。ありがとうございます。<br>
@@ -69,11 +71,63 @@ DOBON.NET様よりソースコードを多く参考にさせていただきま�
 本ソフト作成のためには<br>
 『<a href= "https://nextpublishing.jp/book/10278.html">Markdownライティング入門　プレーンテキストで気楽に書こう！ (技術の泉シリーズ（NextPublishing)</a>』（藤原 惟）<br>
 を参照しました。<br>
-<hr>
 </p>
-このページの最終更新　2020-05-17<br>
-公式サイト　grurqApps<br>
-<a href = "https://grurq.github.io/">https://grurq.github.io/</a>
+<h4>更新履歴(～2020-05-17)</h4>
+<ul>
+<li>2020-05-17</li>
+<ul>
+<li>github上の誤掲載訂正と不要なコード削除</li>
+</ul>
+<li>2020-04-26</li>
+<ul>
+<li>リスト変換</li>
+<ul>
+<li>リスト変換で<code>- </code>以外にも<code>+ * </code>に対応。</li>
+</ul>
+<li>見出し変換</li>
+<ul>
+<li>で<code>---</code><code>===</code>の優先順位が高く、前行の文字列内の記法が無視される問題を修正。</li>
+<li><code>---</code>による水平線がh2と誤認される問題を修正。</li>
+</ul>
+<li>水平線</li>
+<ul>
+<li>空白を1つずつ開けて書く記法の場合、<code>- - - </code>と最後の一文字分も半角スペースにしなければならない問題を修正</li>
+</ul>
+</ul>
+<li>2020-04-19</li>
+<ul>
+<li>リスト変換を改善</li>
+<ul>
+<li>三段階以上の多重化にも対応</li>
+<li>タブと空白による字下げ変換の反映</li>
+<li>-,=を使ったh1,h2への変換で、一部の水平線処理が消えるようになっていたことを修正。</li>
+</ul>
+</ul>
+<li>2020-04-12</li>
+<ul>
+<li>ヘッダ・フッダ追加のOnOffが正しく反映されるよう修正</li>
+<li>概要表示の刷新</li>
+</ul>
+<li>2020-03-29</li>
+<ul>
+<li>リストの変換方法を改良</li>
+<ul>
+<li>リストが行末に来る場合改行しなくても変換できるようになった</li>
+</ul>
+<li>抹消線の変換を追加(<code>~~</code>)</li>
+<li>見出しの変換方法を追加</li>
+<ul>
+<li><code>#  #</code>による変換</li>
+<li>次行に=,-を置いてh1,h2に変換できるようにした</li>
+</ul>
+<li>水平線に<code>_</code>を使用可能にした。</li>
+<li>通常起動時の履歴タブ削除、概要を簡潔にしサイトを参照させるようにした。</li>
+</ul>
+<li>2020-03-22</li>
+<ul>
+<li>公開</li>
+</ul>
+</ul>
 
 </body>
 </html>
